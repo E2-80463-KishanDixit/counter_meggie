@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#meggieContainer{
+    position: relative;
+}
+#upperDiv{
+    background: linear-gradient(45deg,rgba(0, 255, 255, 0.644), rgba(255, 0, 217, 0.397));
+    height: 150px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#upperDiv h3{
+    color: white;
+    font-size: 1.8rem;
+    margin: 10px;
+    letter-spacing: 5px;
+}
+
+.inputContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.inputContainer input{
+    font-size: 1.2rem ;
+    padding: 10px;
+}
+
+.btn {
+    height: 100%;
+    width: 20%;
+    background-color: rgb(253, 244, 244);
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 800;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0px 0px 10px 10px rgb(193, 191, 191);
+}
+
+.btn:hover{
+    opacity: 0.7;
+}
+#lowerDiv{
+    background-color: rgb(88, 88, 88);
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+#digitCounter{
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    font-size: 2rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.slide{
+    height: 80px;
+    width: 80px;
+    background-color: rgb(68, 224, 230);
+    font-size: 2rem;
+    text-align: center;
+    border: 2px solid rgb(51, 230, 6);
+}
+
+.next{
+    position: absolute;
+    top:80px;
+}
+
+.animation {
+    top: 0px;
+    transition: all 1s ease-in-out;
+}
+
+#megiieRedy{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(97, 97, 97, 0.488);
+    border: 2px solid black;
+    border-radius: 20px;
+    color: white;
+    font-size: 3rem;
+    top: 120px;
+    left: 500px;
+    display: none;
+}
+.megImg{
+    background-image: url(assets/megiie\ Image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 20px;
+    height: 300px;
+    width: 400px;
+}
